@@ -1,0 +1,97 @@
+    body {
+        background-color: aqua;
+        margin: 50px;
+        padding: 0;
+    }
+    
+    main {
+        background-color: aliceblue;
+        padding: 20px;
+        margin-top: 200px;
+        width: 500px;
+        border-radius: 20px;
+        height: 500px;
+        border: 1px solid blue;
+        border-width: 2px;
+    }
+    
+    .con {
+        color: rgb(103, 136, 243);
+    }
+    
+    .con:hover {
+        color: blueviolet;
+    }
+    
+    .name label {
+        text-align: left;
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1rem;
+    }
+    
+    .name input {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
+    
+    .email label {
+        text-align: left;
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1rem;
+    }
+    
+    .email input {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
+    
+    .Gender label {
+        text-align: left;
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1rem;
+    }
+    
+    .Gender input {
+        padding: 10px;
+        border: 1px solid black;
+        font-size: 1rem;
+    }
+    
+    .phone label {
+        text-align: left;
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1rem;
+    }
+    
+    .phone input {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
+    
+    .Course label {
+        text-align: left;
+        display: block;
+        margin-bottom: 8px;
+        font-size: 1rem;
+    }
+    
+    .Course input {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-size: 1rem;
+    }
