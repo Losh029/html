@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess The Number</title>
+    <style>
+        body {
+            width: 500px;
+            height: 300px;
+            border-radius: 50px;
+            border-style: solid;
+            text-align: center;
+        }
+        
+        #guessnumber {
+            border-radius: 25px;
+            padding: 20px;
+            border-color: rgb(129, 27, 224);
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main style="text-align:center;">
+        <h1>Guess The Number</h1>
+        <input id="guessnumber" type="number" placeholder="Enter a number (1-10)"><br><br>
+
+        <button onclick="check()">Check</button><br>
+        <p id="p">You are Wrong / Right</p><br>
+        <p id="score">score:10</p>
+
+    </main>
+    <script>
+        var guessnumber = document.getElementById("guessnumber");
+        var p = document.getElementById("p");
+        var score = document.getElementById("score")
+
+        var rn = Math.floor(Math.random() * 10) + 1
+        var totalscore = 10
+
+        function check() {
+            var enterednumber = Number(guessnumber.value);
+            if (enterednumber === rn) {
+                p.textContent = "🎉 Right! You guessed it!";
+                alert("YOU WON")
+            } else {
+                totalscore = totalscore - 1
+                score.textContent = "score:" + totalscore
+                p.textContent = "❌ Wrong! Try again.";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
